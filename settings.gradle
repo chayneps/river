@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        jcenter()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name= 'river'
+
+include 'river-be'
